@@ -1,0 +1,194 @@
+#bt-user-switch-holder{
+	float: left;
+	width: 1px;
+	height: 1px;
+}
+
+.pre-x{
+	float: left;
+}
+
+#bt-panel-trigger:hover{
+	color: #333 !important;
+}
+
+#bt-panel-trigger{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#user-switch-tri{
+	left: -11px;
+	display: block;
+	position: relative;
+	margin-top: 23px;
+	z-index: 200;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent transparent #FFF transparent;
+}
+
+#user-switch{
+	border: #DDD solid 1px;
+	position: absolute;
+	display: block;
+	left: -100px;
+	top: 10px;
+	width: 190px;
+	background-color: #FFF;
+	list-style: none outside none;
+	padding: 5px;
+
+	color: #CCC;
+	line-height: 1.2em;
+	font-size: .75em;
+	padding-bottom: 10px;
+	z-index: 200;
+	max-height: 290px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.bt-round{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+}
+
+.bt-round-2{
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+}
+
+.bt-shadow{
+	-webkit-box-shadow: 0px 1px 7px rgba(50, 50, 50, 0.64);
+	-moz-box-shadow:    0px 1px 7px rgba(50, 50, 50, 0.64);
+	box-shadow:         0px 1px 7px rgba(50, 50, 50, 0.64);
+}
+
+#bt-acct-label{
+	background-color: #FFF;
+	color: #000;
+	display: block;
+	width: 184px;
+	padding: 3px;
+	margin-bottom: 3px;	
+}
+
+#user-switch li a{
+	position: relative;
+	display: block;
+	width: 184px;
+	padding: 3px;
+	color: #CCC;
+	margin-bottom: 3px;
+	background-color: #EEE;
+	overflow: hidden;
+}
+
+#user-switch li a:hover{
+	background-color: #F8C52E !important;
+}
+
+#user-switch li.active a{
+	background-color: #F8C52E;
+}
+
+/*#user-switch li.active a:hover{
+	cursor: default;
+}*/
+
+.bt-switch-pic{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background-color: #555;
+	float: left;
+	margin-right: 9px;
+}
+
+.bt-acc-name{
+	position: relative;
+	width: 145px;
+	float: left;
+}
+
+.bt-acc-name span{
+	font-size: .75em;
+	position: relative;
+	color: #333 !important;
+	display: inline;
+}
+
+span.bt-pri-name{
+	font-size: 1em;
+	position: relative;
+	color: #CCC;
+	font-weight: bold;
+}
+
+.cl34r{
+	display: block;
+	height: 1px;
+	clear: both;
+}
+
+.bt-switch-pic img{
+	width: 25px;
+	height: 25px;
+}
+
+#user-switch-tri, #user-switch{
+	display: none;
+}
+
+.user-switch1 li a {
+    background-color: #DDDDDD;
+    color: #CCCCCC;
+    display: block;
+    margin-bottom: 3px;
+    overflow: hidden;
+    padding: 3px;
+    position: relative;
+    width: 184px; 
+}
+.user-switch1 li a:hover {
+    border-color: #F8C52E;
+    border-radius: 2px;
+}
+.user-switch1 {
+    height: 63px;
+}
+#user-switch li a {
+    border-radius: 3px;
+}
+#user-switch .user-switch1 .n3w-biz a  {
+        background-color:#fff;
+        color:#000000;
+        margin-top:-12px;
+}
+
+#user-switch .user-switch1 .claim-biz a {
+       background-color:#fff;
+      color:#000000;
+}
+
+@media screen and (max-width: 355px) {
+  /*************** Max width Smartphones 2 *******************/
+  #user-switch-tri {
+    left: -36px;
+  }
+  #user-switch {
+    left: auto;
+    right: -25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+	#user-switch {
+    right: -65px;
+  }
+ }
