@@ -1,0 +1,16 @@
+#logo_h1{
+	margin-bottom: 0;
+}
+
+h3.results{
+	font-size: 14px;
+	font-weight: 300;
+	color: #444;
+	margin-top: 10px;
+}
+h3.results span.key{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #000;
+}
