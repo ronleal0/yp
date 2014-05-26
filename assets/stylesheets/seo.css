@@ -14,3 +14,14 @@ h3.results span.key{
 	font-size: 18px;
 	color: #000;
 }
+h3.result-co{
+	font-size: 11px;
+}
+.result-address h4{
+	font-size: 12px!important;
+	font-weight: normal;
+}
+.result-phone h5{
+	font-weight: normal;
+	font-size: 12px;
+}
